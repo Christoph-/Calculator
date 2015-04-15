@@ -11,8 +11,11 @@ public class Calculator{
 
 		if(operator.equals("+")){
 			result = number1 + number2;
-			System.out.println(number1 + " " + operator + " " + number2 + " = " + result);
+		}
+		else if(operator.equals("-")){
+			result = number1 - number2;
 		}
 
+		System.out.println(number1 + " " + operator + " " + number2 + " = " + result);
 	}
 }
