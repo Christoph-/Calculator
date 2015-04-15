@@ -18,6 +18,9 @@ public class Calculator{
 		else if(operator.equals("*")){
 			result = number1 * number2;
 		}
+		else if(operator.equals("/")){
+			result = number1 / number2;
+		}
 
 		System.out.println(number1 + " " + operator + " " + number2 + " = " + result);
 	}
