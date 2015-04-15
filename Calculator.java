@@ -7,5 +7,12 @@ public class Calculator{
 		int number1 = scanner.nextInt();
 		String operator = scanner.next();
 		int number2 = scanner.nextInt();
+		int result = 0;
+
+		if(operator.equals("-")){
+			result = number1 - number2;
+		}
+
+		System.out.println(number1 + " " + operator + " " + number2 + " = " + result);
 	}
 }
